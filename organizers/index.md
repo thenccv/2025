@@ -35,10 +35,9 @@ layout: default
           <div class="col"> ASCI</div>
         </div>
 </div>
-
+<!-- 
 #### Program committee
 <br />
-
 <div class="container">
         <div class="row text-center">
         <div class="col"> <img src="https://1348661504.rsc.cdn77.org/.wh/ea/uc/ief3782250101ecea1400e0b7a6027c4a7b1ec0f288470801e3400140018041/abriassouli.jpg" class="rounded mx-auto d-block" alt="abriassouli" style="width:9em"> </div>
@@ -53,4 +52,4 @@ layout: default
           <div class="col"> University of Twente</div>
           <div class="col"> University of Twente</div>
         </div>
-</div>
+</div> -->

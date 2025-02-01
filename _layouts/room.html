@@ -3,12 +3,10 @@
 {%- unless this_room.hide or site.conference.location.hide -%}
   {%- include partials/header.html -%}
 
-  <!-- title for print: -->
   <h1 class="display-5 mb-3 d-none d-print-inline">
     {{ this_room.name }}
   </h1>
 
-  <!-- title shown in browser: -->
   <h1 class="display-5 mb-3 d-print-none text-break">
     {{ site.data.lang[site.conference.lang].location.rooms | default: "Rooms" }}
   </h1>

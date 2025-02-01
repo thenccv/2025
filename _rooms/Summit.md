@@ -1,5 +1,5 @@
 ---
-name: Summit
+name:   
 ---
 
 TBD
