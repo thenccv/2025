@@ -1,5 +1,5 @@
 ---
-name:   
+name:  Summit 
 ---
 
-TBD
+Main room for keynotes, featured talks, and orals

@@ -7,12 +7,20 @@
     {{ site.data.lang[site.conference.lang].speaker.title | default: "Speaker" }}
   </p>
 
- <h1 class="font-weight-light text-break">
-    {{ speaker.first_name }} {{ speaker.last_name }}
-  </h1>
-  <h3 class="font-weight-light mb-3 text-break">
-    {{ speaker.affiliation }}
-  </h3>
+  
+    <div class="mb-9">
+      <img src="{{ speaker.photo }}" style="max-width:10em"></img>
+    </div>
+    <div class="mb-9">
+      <h1 class="font-weight-light text-break">
+        {{ speaker.first_name }} {{ speaker.last_name }}
+      </h1>
+      <h3 class="font-weight-light mb-3 text-break">
+        {{ speaker.affiliation }}
+      </h3>
+    </div>
+  
+  
 
   {{ content }}
 

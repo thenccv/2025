@@ -149,13 +149,13 @@ main.container img {
     // Total available container width is 1110px
 
     // Width of columns with content (default)
-    width: 245px;
-    min-width: 245px;
+    width: 100%;
+    min-width: 100%;
 
     // Spacing between columns
     &.col-space {
-      width: 15px;
-      min-width: 15px;
+      width: 10px;
+      min-width: 10px;
     }
     // Width of first column containing timestamps
     &.col-title {
@@ -171,8 +171,8 @@ main.container img {
   color: var(--dark);
 }
 #map {
-  height: 50vh;
-  min-height: 400px;
+  height: 30vh;
+  min-height: 200px;
   width: 100%;
 }
 

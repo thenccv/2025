@@ -74,14 +74,16 @@ conference:
       #img: '/imgs/banner.png'
     breakpoint: md
     links:
+      - name: Attend
+        relative_url: /attend/
       - name: Program
         relative_url: /program/
       - name: Sessions
-        relative_url: /placeholder/
+        relative_url: /talks/
       - name: Speakers
-        relative_url: /placeholder/
+        relative_url: /speakers/
       - name: Papers
-        relative_url: /placeholder/
+        relative_url: /papers/
       - name: Organizers
         relative_url: /organizers/
       - name: Location
@@ -108,13 +110,18 @@ conference:
     # logo:
     #   img: ''
     links:
+      - name: Attend
+        relative_url: /attend/
       - name: Program
         relative_url: /program/
       - name: Getting here
         relative_url: /location/
       - name: Register
-        disabled: true
-        absolute_url: ''
+        disabled: false
+        absolute_url: 'https://www.aanmelder.nl/164639/subscribe'
+      - name: Submit your paper
+        disabled: false
+        absolute_url: 'https://docs.google.com/forms/d/1hLnoT6WyUh7gncrORTyz_QpJkwETIDGTUgc-12MfkaY'
 
   # Information boxes
   #info_bars:
@@ -149,16 +156,18 @@ conference:
     main_categories:
       - name: Keynote
         color: success
-      - name: Misc
-        color: danger
+      - name: Featured
+        color: third
       - name: Oral
         color: warning
-      - name: Plenary
-        color: third
       - name: Posters
         color: info
       - name: Social
         color: fourth
+      - name: Award
+        color: fifth
+      - name: Misc
+        color: danger
       
 
     # Hide icons on talk overview page

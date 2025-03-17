@@ -3,12 +3,12 @@
         {
             "name": "Day 1",
             "hash": "d1",
-            "date": "2020-01-31"
+            "date": "2025-05-22"
         },
         {
             "name": "Day 2",
             "hash": "d2",
-            "date": "2020-02-01"
+            "date": "2025-05-23"
         }
     ],
 
@@ -16,17 +16,17 @@
     },
 
     "speakers": {
-        "Luke Skywalker" : {
-            "name": "Luke Skywalker",
-            "href": "/speakers/luke/"
+        "Francesco Nex" : {
+            "name": "Francesco Nex",
+            "href": "/speakers/francesco/"
         },
-        "Han Solo" : {
-            "name": "Han Solo",
-            "href": "/speakers/solo/"
+        "Lingyu Wang" : {
+            "name": "Lingyu Wang",
+            "href": "/speakers/lingyu/"
         },
-        "Darth Vader" : {
-            "name": "Darth Vader",
-            "href": "/speakers/vader/"
+        "Torsten Sattler" : {
+            "name": "Torsten Sattler",
+            "href": "/speakers/torsten/"
         }
     },
 

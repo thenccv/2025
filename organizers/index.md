@@ -8,9 +8,9 @@ layout: default
 
 <div class="container">
         <div class="row text-center">
-        <div class="col"> <img src="../imgs/nicola.jpeg" class="rounded mx-auto d-block" alt="nstrisciuglio" style="width:12em"></div>
-          <div class="col"><img src="../imgs/estefania.jpg" class="rounded mx-auto d-block" alt="etalavera" style="width:12em"></div>
-          <div class="col"> <img src="../imgs/alex.jpeg" class="rounded mx-auto d-block" alt="astergiou" style="width:12em"> </div>
+        <div class="col"> <img src="../imgs/nicola.jpeg" class="rounded mx-auto d-block" alt="nstrisciuglio" style="max-width:12em"></div>
+          <div class="col"><img src="../imgs/estefania.jpg" class="rounded mx-auto d-block" alt="etalavera" style="max-width:12em"></div>
+          <div class="col"> <img src="../imgs/alex.jpeg" class="rounded mx-auto d-block" alt="astergiou" style="max-width:12em"> </div>
         <div class="w-100"></div>
           <div class="col"><a href="https://nicstrisc.github.io/" targe="_blank">  Nicola Strisciuglio</a></div>
           <div class="col"><a href="https://estefaniatalavera.github.io/" targe="_blank">  Estefanía Talavera Martínez</a></div>

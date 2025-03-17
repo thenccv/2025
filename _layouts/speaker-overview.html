@@ -10,38 +10,57 @@
 
   {{ content }}
 
-  <div class="speakerlist">
-    {% assign cur_letter = false %}
-    {% assign speakers = site.speakers | sort_natural: 'last_name' %}
-    {% for speaker in speakers %}
 
-      {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
-      {% if cur_letter != last_letter %}
-        {% if cur_letter %}
-            </ul>
-          </div>
+  <div>
+
+    {% for main_category in site.conference.talks.main_categories %}
+      {% if main_category.name == 'Keynote' %}
+        <h3 class="mt-5 mb-3">
+          <span class="badge border-soft-{{ main_category.color }} bg-soft-{{ main_category.color }} d-block d-sm-inline text-wrap">
+            {{ main_category.name }}
+          </span>
+        </h3>
+        {% break %}
         {% endif %}
-
-        {% assign cur_letter = last_letter %}
-        <div class="speakergroup">
-          <h3>{{ cur_letter }}</h3>
-          <ul class="list-unstyled">
-      {% endif %}
-
-      <li class="font-weight-light">
-        {% if speaker.hide %}
-          {{ speaker.first_name }} {{ speaker.last_name }}
-        {% else %}
-          <a href="{{ speaker.url | prepend: site.baseurl }}">
-            {{ speaker.first_name }} {{ speaker.last_name }}
-          </a>
-        {% endif %}
-      </li>
-
     {% endfor %}
 
-      </ul>
-    </div>
+    {% for talk in site.talks -%}
+        {%- for cat in talk.categories -%}
+          {%- if cat == 'Keynote' -%}
+          <div>
+              <h5 class="font-weight-light">
+                {% include partials/list_speakers.html %}
+              </h5>
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+      {% for main_category in site.conference.talks.main_categories %}
+      {% if main_category.name == 'Featured' %}
+        <h3 class="mt-5 mb-3">
+          <span class="badge border-soft-{{ main_category.color }} bg-soft-{{ main_category.color }} d-block d-sm-inline text-wrap">
+            {{ main_category.name }}
+          </span>
+        </h3>
+        {% break %}
+        {% endif %}
+    {% endfor %}
+
+    {% for talk in site.talks -%}
+        {%- for cat in talk.categories -%}
+          {%- if cat == 'Featured' -%}
+          <div>
+              <h5 class="font-weight-light">
+                {% include partials/list_speakers.html %}
+              </h5>
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+  
+
   </div>
 
 {% include partials/footer.html %}
