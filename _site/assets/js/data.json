@@ -16,6 +16,10 @@
     },
 
     "speakers": {
+        "Djamila Aouada" : {
+            "name": "Djamila Aouada",
+            "href": "/speakers/djamila/"
+        },
         "Francesco Nex" : {
             "name": "Francesco Nex",
             "href": "/speakers/francesco/"

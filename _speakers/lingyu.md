@@ -3,7 +3,7 @@ name: Lingyu Wang
 first_name: Lingyu
 last_name: Wang
 affiliation: The University of Groningen (RuG)
-photo: "../../imgs/lwang.jpg"
+photo: "../../imgs/Lingyu_Wang.jpg"
 links:
   - name: Profile
     absolute_url: https://lingyuwang232811726.wordpress.com/
