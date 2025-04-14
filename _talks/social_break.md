@@ -1,5 +1,5 @@
 ---
-name: Closing Talk
+name: Social break
 categories:
   - Misc
 hide: True

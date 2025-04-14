@@ -5,6 +5,6 @@ The Netherlands Conference on Computer Vision (NCCV) promotes computer vision re
 
 ### Key dates
 -----------
-* **Registration deadline**: 11th of April 2025
+* **Registration deadline**: ~~11th of April 2025~~ 16th of April 2025
 * **Paper submission deadline** 18th of April 2025
 * **Cancellation deadline**: 30th of April 2025
