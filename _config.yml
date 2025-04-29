@@ -117,7 +117,7 @@ conference:
       - name: Getting here
         relative_url: /location/
       - name: Register
-        disabled: true
+        disabled: false
         absolute_url: 'https://www.aanmelder.nl/164639/subscribe'
       - name: Submit your paper
         disabled: false
