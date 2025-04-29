@@ -5,6 +5,13 @@ The Netherlands Conference on Computer Vision (NCCV) promotes computer vision re
 
 ### Key dates
 -----------
-* **Registration deadline**: ~~11th of April 2025~~ 16th of April 2025
-* **Paper submission deadline** 18th of April 2025
-* **Cancellation deadline**: 30th of April 2025
+* **Registration deadline**: ~~16th of April 2025~~ 
+* **Paper submission deadline** ~~18th of April 2025~~
+* **Cancellation deadline**: ~~30th of April 2025~~
+
+### Sponsors
+----------
+<div class="container" style="border-bottom:30em">
+        <div class="row text-center">
+        <div class="col"><a href="https://www.ewmnetherlands.nl/"> <img src="../imgs/sponsors/EWM-NL-logo.jpg" class="rounded mx-auto d-block" alt="ewn" style="max-width:12em"></a></div>
+</div>

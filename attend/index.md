@@ -17,4 +17,4 @@ For any cancellations before <b>30th April</b> you can receive a <b>full refund 
 ### Useful Links
 -----------
 
-<a class="btn btn-outline-primary btn-lg mt-2 ml-1" href="https://www.aanmelder.nl/164639/subscribe">Registration</a> <a class="btn btn-outline-primary btn-lg mt-2 ml-1" href="https://docs.google.com/forms/d/1hLnoT6WyUh7gncrORTyz_QpJkwETIDGTUgc-12MfkaY/preview">Paper submission</a>
+<a class="btn btn-outline-primary btn-lg mt-2 ml-1" href="#">Registration</a> <a class="btn btn-outline-primary btn-lg mt-2 ml-1" href="https://docs.google.com/forms/d/1hLnoT6WyUh7gncrORTyz_QpJkwETIDGTUgc-12MfkaY/preview">Paper submission</a>
