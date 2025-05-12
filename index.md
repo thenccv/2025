@@ -14,5 +14,5 @@ The Netherlands Conference on Computer Vision (NCCV) promotes computer vision re
 <div class="container" style="border-bottom:30em">
         <div class="row text-center">
         <div class="col"><a href="https://www.ewmnetherlands.nl/"> <img src="imgs/sponsors/EWM-NL-logo.jpg" class="rounded mx-auto d-block" alt="ewn" style="max-height:6em"></a></div>
-        <div class="col"><a href="https://deepmind.google/"> <img src="imgs/sponsors/ASCI.png" class="rounded mx-auto d-block" alt="asci" style="max-height:6em"></a></div>
+        <div class="col"><a href="https://asci.school/"> <img src="imgs/sponsors/ASCI.png" class="rounded mx-auto d-block" alt="asci" style="max-height:6em"></a></div>
 </div>
