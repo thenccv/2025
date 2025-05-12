@@ -1,5 +1,5 @@
 ---
-name: Feat 2
+name: 3D Real-time Mapping with Deep Learning
 speakers:
   - Francesco Nex
 categories:

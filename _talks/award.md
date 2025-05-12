@@ -1,5 +1,5 @@
 ---
-name: ASCII best paper award
+name: ASCI best paper award
 categories:
   - Award
 hide: True

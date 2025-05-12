@@ -120,7 +120,7 @@ conference:
         disabled: false
         absolute_url: 'https://www.aanmelder.nl/164639/subscribe'
       - name: Submit your paper
-        disabled: false
+        disabled: true
         absolute_url: 'https://docs.google.com/forms/d/1hLnoT6WyUh7gncrORTyz_QpJkwETIDGTUgc-12MfkaY'
 
   # Information boxes

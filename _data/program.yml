@@ -11,23 +11,20 @@ days:
       - name: Keynote 1
         time_start: '13:15'
         time_end: '14:00'
-      - name: The rise of computer vision in galaxy evolution
+      - name: The Rise of Computer Vision in Galaxy Evolution
         time_start: '14:10'
         time_end: '14:40'
-      - name: Feat 2
+      - name: 3D Real-time Mapping with Deep Learning
         time_start: '14:40'
         time_end: '15:10'
       - name: Oral Session 1
-        time_start: '16:45'
-        time_end: '17:30'
-      - name: Pub Quiz
-        time_start: '20:30'
-        time_end: '22:00'
+        time_start: '15:45'
+        time_end: '16:45'
   - name: Hallway Summit
     talks:
       - name: Poster Session 1
-        time_start: '15:15'
-        time_end: '16:45'
+        time_start: '16:45'
+        time_end: '18:00'
   - name: Carlton President Hotel
     talks:
       - name: Arrival and Registration
@@ -38,13 +35,13 @@ days:
         time_end: '13:00'
       - name: Break and Hotel check-in
         time_start: '15:00'
-        time_end: '15:15'
-      - name: Social break
-        time_start: '17:30'
-        time_end: '18:00'
+        time_end: '15:45'
       - name: Dinner
         time_start: '18:00'
         time_end: '20:30'
+      - name: Pub Quiz
+        time_start: '20:30'
+        time_end: '22:00'
 
 - name: Day 2
   abbr: D2
@@ -52,30 +49,30 @@ days:
   rooms:
   - name: Summit
     talks:
-      - name: Keynote 2
+      - name: 3D Reconstruction with Gaussian Splatting
         time_start: '09:00'
-        time_end: '10:00'
+        time_end: '09:45'
       - name: Oral Session 2
-        time_start: '10:15'
-        time_end: '11:15'
-      - name: ASCII best paper award
-        time_start: '12:00'
-        time_end: '12:15'
+        time_start: '09:45'
+        time_end: '10:45'
+      - name: ASCI best paper award
+        time_start: '12:15'
+        time_end: '12:30'
   - name: Hallway Summit
     talks:
       - name: Poster Session 2
-        time_start: '11:15'
-        time_end: '12:00'
+        time_start: '11:00'
+        time_end: '12:15'
   - name: Carlton President Hotel
     talks:
       - name: Breakfast and Check-out
         time_start: '07:00'
         time_end: '09:00'
       - name: Break
-        time_start: '10:00'
-        time_end: '10:15'
+        time_start: '10:45'
+        time_end: '11:00'
       - name: Lunch
-        time_start: '12:15'
+        time_start: '12:30'
         time_end: '13:00'
   
 

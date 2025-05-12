@@ -1,5 +1,5 @@
 ---
-name: The rise of computer vision in galaxy evolution
+name: The Rise of Computer Vision in Galaxy Evolution
 speakers:
   - Lingyu Wang
 categories:
