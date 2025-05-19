@@ -42,7 +42,7 @@ layout: default
         <div class="row text-center">
         <div class="col"> <img src="../imgs/shuxin.jpg" class="rounded mx-auto d-block" alt="swang" style="width:12em"> </div>
         <div class="w-100"></div>
-          <div class="col"><a href="https://www.linkedin.com/in/shunxin-wang/" targe="_blank">  Shuxin Wang</a></div>
+          <div class="col"><a href="https://scholar.google.com/citations?user=G-ibdsIAAAAJ&hl=en" targe="_blank">  Shunxin Wang</a></div>
         <div class="w-100"></div>
           <div class="col"> University of Twente</div>
         </div>
