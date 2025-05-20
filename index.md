@@ -12,7 +12,34 @@ The Netherlands Conference on Computer Vision (NCCV) promotes computer vision re
 ### Sponsors
 ----------
 <div class="container" style="border-bottom:30em">
-        <div class="row text-center">
-        <div class="col"><a href="https://www.ewmnetherlands.nl/"> <img src="imgs/sponsors/EWM-NL-logo.jpg" class="rounded mx-auto d-block" alt="ewn" style="max-height:6em"></a></div>
-        <div class="col"><a href="https://asci.school/"> <img src="imgs/sponsors/ASCI.png" class="rounded mx-auto d-block" alt="asci" style="max-height:6em"></a></div>
+        <div class="row">
+                <table style="width:100%;">
+                        <thead>
+                                <tr>
+                                        <th style="width:33%;background: #E5E4E2;"><h5> &ensp; PLATINUM</h5></th>
+                                        <th colspan="2" style="width:67%;background:#FFD700;"><h5> &ensp; GOLD</h5></th>
+                                </tr>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                        <td class="text-center" style="vertical-align:middle;">
+                                                <a href="https://asci.school/">
+                                                        <img src="imgs/sponsors/ASCI.jpg" class="rounded mx-auto d-block" alt="asci" style="max-height:6em">
+                                                </a>
+                                        </td>
+                                        <td class="text-center" style="vertical-align:middle;">
+                                                <a href="https://www.ewmnetherlands.nl/">
+                                                        <img src="imgs/sponsors/EWM-NL-logo.jpg" class="rounded mx-auto d-block" alt="ewn" style="max-height:6em">
+                                                </a>
+                                        </td>
+                                        <td class="text-center" style="vertical-align:middle;">
+                                                <a href="https://deepmind.google/">
+                                                        <img src="imgs/sponsors/google-deep-mind-logo.jpg" class="rounded mx-auto d-block" alt="deepmind" style="max-height:6em">
+                                                </a>
+                                        </td>
+                                </tr>
+                        </tbody>
+                </table>
+        </div>
 </div>
+

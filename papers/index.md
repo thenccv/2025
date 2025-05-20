@@ -109,3 +109,9 @@ layout: default
 
 **HD-EPIC: A Highly-Detailed Egocentric Video Dataset**  
 **Authors:** Toby Perrett*, Ahmad Darkhalil*, Saptarshi Sinha*, Omar Emara*, Sam Pollard*, Kranti Parida*, Kaiting Liu*, Prajwal Gatti*, Siddhant Bansal*, Kevin Flanagan*, Jacob Chalk*, Zhifan Zhu*, Rhodri Guerrier*, Fahd Abdelazim*, Bin Zhu, Davide Moltisanti, Michael Wray, Hazel Doughty, Dima Damen  
+
+**Frequency-based Few-shot Learning for Image Classification**  
+**Authors:** Zhiqi Miao, Estefania Talavera, Japan Guo
+ 
+**Emotions in LatAm: A new dataset and benchmark for emotion recognition in Latin America**  
+**Authors:** Pooja Kishore Kumar, Willams Costa, Renato Nogueira Ferraz e Oliveira, Veronica Teichrieb, Estefania Talavera
