@@ -309,21 +309,13 @@ This writes the generated site to `_site/`.
 
 ## Local build note for this repository
 
-This repository includes the theme source locally, but `_config.yml` is currently configured to use a remote theme for GitHub Pages.
-
-If a local build fails with an SSL or certificate error while downloading the remote theme, use the local theme instead for local testing:
-
-1. In `_config.yml`, comment out the `remote_theme` line.
-2. Uncomment the `theme: jekyll-theme-conference` line.
-3. Run Jekyll again.
-
-After that, run:
+This repository is configured to use the local `jekyll-theme-conference` theme source that is already included in the repo. That means the standard local serve command should work directly:
 
 ```bash
 bundle exec jekyll serve --host 127.0.0.1 --port 4000
 ```
 
-At the time this README was written, the site rendered locally at `http://127.0.0.1:4000` once the local theme was used.
+If someone switches `_config.yml` back to `remote_theme`, local builds may fail on machines that cannot verify the remote SSL certificate. In that case, revert to the local `theme: jekyll-theme-conference` setting.
 
 ## Deploying with GitHub Pages
 
