@@ -1,8 +1,7 @@
 
 plugins: ['jekyll-include-cache']
 banner: './imgs/banner.png'
-theme: jekyll-theme-conference
-# remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@v3.6.1"
+# Theme files are vendored into this repository under _layouts, _includes, _sass, and assets.
 title: NCCV2025
 # Build settings
 markdown: kramdown

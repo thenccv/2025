@@ -309,13 +309,15 @@ This writes the generated site to `_site/`.
 
 ## Local build note for this repository
 
-This repository is configured to use the local `jekyll-theme-conference` theme source that is already included in the repo. That means the standard local serve command should work directly:
+This repository vendors the required theme files directly in the repo under `_layouts/`, `_includes/`, `_sass/`, and `assets/`. It does not need Jekyll to resolve a separate local gem theme or a remote theme.
+
+That means the standard local serve command should work directly:
 
 ```bash
 bundle exec jekyll serve --host 127.0.0.1 --port 4000
 ```
 
-If someone switches `_config.yml` back to `remote_theme`, local builds may fail on machines that cannot verify the remote SSL certificate. In that case, revert to the local `theme: jekyll-theme-conference` setting.
+This setup is also compatible with GitHub Pages builds, because Pages can render the site from the checked-in source files without needing to download or install a separate `jekyll-theme-conference` theme package.
 
 ## Deploying with GitHub Pages
 
