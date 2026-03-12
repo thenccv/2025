@@ -1,5 +1,7 @@
 _site/
+# macOS Finder metadata
 .DS_Store
+**/.DS_Store
 .jekyll-cache/
 .sass-cache/
 .bundle/
